@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
+import './Web19202.dart';
+import 'package:adobe_xd/page_link.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class XDWeb19201 extends StatelessWidget {
-  XDWeb19201({
-    Key? key,
-  }) : super(key: key);
+class Web19201 extends StatelessWidget {
+  const Web19201({Key? key,}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,7 +21,6 @@ class XDWeb19201 extends StatelessWidget {
             Pin(size: 813.0, middle: 0.3329),
             child: Stack(
               children: <Widget>[
-                // Adobe XD layer: 'passenger-high-spee…' (shape)
                 Container(
                   decoration: BoxDecoration(
                     image: DecorationImage(
@@ -48,7 +47,6 @@ class XDWeb19201 extends StatelessWidget {
             Pin(size: 1080.0, start: 0.0),
             child: Stack(
               children: <Widget>[
-                // Adobe XD layer: 'passenger-high-spee…' (shape)
                 Container(
                   decoration: BoxDecoration(
                     image: DecorationImage(
@@ -74,7 +72,6 @@ class XDWeb19201 extends StatelessWidget {
             Pin(size: 1080.0, middle: 0.6752),
             child: Stack(
               children: <Widget>[
-                // Adobe XD layer: 'passenger-high-spee…' (shape)
                 Container(
                   decoration: BoxDecoration(
                     image: DecorationImage(
@@ -520,18 +517,27 @@ class XDWeb19201 extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 170.0, start: 58.3),
             Pin(size: 38.0, start: 62.5),
-            child: Text(
-              'تسجيل الدخول',
-              style: TextStyle(
-                fontFamily: 'Hacen Promoter Md',
-                fontSize: 29,
-                color: const Color(0xffffffff),
-                height: 1.1724137931034482,
+            child: PageLink(
+              links: [
+                PageLinkInfo(
+                  ease: Curves.easeOut,
+                  duration: 0.3,
+                  pageBuilder: () => Web19202(),
+                ),
+              ],
+              child: Text(
+                'تسجيل الدخول',
+                style: TextStyle(
+                  fontFamily: 'Hacen Promoter Md',
+                  fontSize: 29,
+                  color: const Color(0xffffffff),
+                  height: 1.1724137931034482,
+                ),
+                textHeightBehavior:
+                    TextHeightBehavior(applyHeightToFirstAscent: false),
+                textAlign: TextAlign.center,
+                softWrap: false,
               ),
-              textHeightBehavior:
-                  TextHeightBehavior(applyHeightToFirstAscent: false),
-              textAlign: TextAlign.center,
-              softWrap: false,
             ),
           ),
           Pinned.fromPins(
@@ -605,7 +611,6 @@ class XDWeb19201 extends StatelessWidget {
                           width: 1.0, color: const Color(0xff00334a)),
                     ),
                   ),
-                  // Adobe XD layer: 'QR_code_for_mobile_…' (shape)
                   Container(
                     decoration: BoxDecoration(
                       image: DecorationImage(
@@ -634,7 +639,6 @@ class XDWeb19201 extends StatelessWidget {
                           width: 1.0, color: const Color(0xff00334a)),
                     ),
                   ),
-                  // Adobe XD layer: 'QR_code_for_mobile_…' (shape)
                   Container(
                     decoration: BoxDecoration(
                       image: DecorationImage(
@@ -708,9 +712,7 @@ class XDWeb19201 extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 501.0, end: 101.0),
             Pin(size: 702.0, middle: 0.2002),
-            child:
-                // Adobe XD layer: '02' (shape)
-                Container(
+            child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image: const AssetImage(''),
@@ -853,9 +855,7 @@ class XDWeb19201 extends StatelessWidget {
           Pinned.fromPins(
             Pin(start: 437.0, end: 437.0),
             Pin(size: 593.0, middle: 0.5089),
-            child:
-                // Adobe XD layer: '01' (shape)
-                Container(
+            child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image: const AssetImage(''),
@@ -902,9 +902,7 @@ class XDWeb19201 extends StatelessWidget {
           ),
           Align(
             alignment: Alignment(0.0, 0.37),
-            child:
-                // Adobe XD layer: '2960px-مترو_القاهرة…' (shape)
-                Container(
+            child: Container(
               width: 804.0,
               height: 587.0,
               decoration: BoxDecoration(
@@ -1659,9 +1657,7 @@ class XDWeb19201 extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 19.6, end: 60.3),
             Pin(size: 34.2, end: 347.1),
-            child:
-                // Adobe XD layer: 'Icon ionic-ios-arro…' (shape)
-                SvgPicture.string(
+            child: SvgPicture.string(
               _svg_kjuri0,
               allowDrawingOutsideViewBox: true,
               fit: BoxFit.fill,
@@ -1670,9 +1666,7 @@ class XDWeb19201 extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 19.6, middle: 0.7415),
             Pin(size: 34.2, end: 347.1),
-            child:
-                // Adobe XD layer: 'Icon ionic-ios-arro…' (shape)
-                SvgPicture.string(
+            child: SvgPicture.string(
               _svg_zf49td,
               allowDrawingOutsideViewBox: true,
               fit: BoxFit.fill,
@@ -1681,9 +1675,7 @@ class XDWeb19201 extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 19.6, middle: 0.7415),
             Pin(size: 34.2, end: 255.1),
-            child:
-                // Adobe XD layer: 'Icon ionic-ios-arro…' (shape)
-                SvgPicture.string(
+            child: SvgPicture.string(
               _svg_n6nu33,
               allowDrawingOutsideViewBox: true,
               fit: BoxFit.fill,
@@ -1692,9 +1684,7 @@ class XDWeb19201 extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 19.6, end: 60.3),
             Pin(size: 34.2, end: 255.1),
-            child:
-                // Adobe XD layer: 'Icon ionic-ios-arro…' (shape)
-                SvgPicture.string(
+            child: SvgPicture.string(
               _svg_itfc,
               allowDrawingOutsideViewBox: true,
               fit: BoxFit.fill,
@@ -1703,9 +1693,7 @@ class XDWeb19201 extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 19.6, end: 60.3),
             Pin(size: 34.2, end: 154.1),
-            child:
-                // Adobe XD layer: 'Icon ionic-ios-arro…' (shape)
-                SvgPicture.string(
+            child: SvgPicture.string(
               _svg_miq6g,
               allowDrawingOutsideViewBox: true,
               fit: BoxFit.fill,
@@ -1714,9 +1702,7 @@ class XDWeb19201 extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 70.3, start: 105.0),
             Pin(size: 69.9, end: 604.1),
-            child:
-                // Adobe XD layer: 'Icon awesome-facebo…' (shape)
-                SvgPicture.string(
+            child: SvgPicture.string(
               _svg_v5zb2n,
               allowDrawingOutsideViewBox: true,
               fit: BoxFit.fill,
@@ -1725,9 +1711,7 @@ class XDWeb19201 extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 64.3, start: 223.0),
             Pin(size: 64.3, end: 606.9),
-            child:
-                // Adobe XD layer: 'Icon feather-instag…' (group)
-                Stack(
+            child: Stack(
               children: <Widget>[
                 SizedBox.expand(
                     child: SvgPicture.string(
@@ -1762,9 +1746,7 @@ class XDWeb19201 extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 80.8, middle: 0.1821),
             Pin(size: 59.1, end: 609.9),
-            child:
-                // Adobe XD layer: 'Icon ionic-ios-mail…' (group)
-                Stack(
+            child: Stack(
               children: <Widget>[
                 Align(
                   alignment: Alignment.topRight,
@@ -1808,9 +1790,7 @@ class XDWeb19201 extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 81.8, start: 239.5),
             Pin(size: 81.8, start: 43.1),
-            child:
-                // Adobe XD layer: 'Icon awesome-user-c…' (shape)
-                SvgPicture.string(
+            child: SvgPicture.string(
               _svg_o65vnn,
               allowDrawingOutsideViewBox: true,
               fit: BoxFit.fill,

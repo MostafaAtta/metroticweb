@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class XDWeb19205 extends StatelessWidget {
-  XDWeb19205({
+class Web19205 extends StatelessWidget {
+  Web19205({
     Key? key,
   }) : super(key: key);
   @override
@@ -15,43 +15,15 @@ class XDWeb19205 extends StatelessWidget {
           Container(
             color: const Color(0xfff5f7fb),
           ),
-          Align(
-            alignment: Alignment.topLeft,
-            child: Container(
-              width: 1559.0,
-              height: 106.0,
-              decoration: BoxDecoration(
-                color: const Color(0xffffffff),
-                boxShadow: [
-                  BoxShadow(
-                    color: const Color(0x29000000),
-                    offset: Offset(0, 3),
-                    blurRadius: 6,
-                  ),
-                ],
-              ),
-            ),
-          ),
           Pinned.fromPins(
-            Pin(size: 361.0, end: 0.0),
+            Pin(size: 361.0, start: 0.0),
             Pin(start: 0.0, end: 0.0),
             child: Container(
               color: const Color(0xff00334a),
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 63.9, end: 34.8),
-            Pin(size: 48.7, end: 35.1),
-            child:
-                // Adobe XD layer: 'Icon awesome-sign-o…' (shape)
-                SvgPicture.string(
-              _svg_b7idbz,
-              allowDrawingOutsideViewBox: true,
-              fit: BoxFit.fill,
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 267.0, end: 47.0),
+            Pin(size: 267.0, start: 47.0),
             Pin(size: 92.5, start: 59.7),
             child: Stack(
               children: <Widget>[
@@ -380,308 +352,16 @@ class XDWeb19205 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 222.9, end: 39.1),
-            Pin(size: 58.2, middle: 0.4022),
-            child: Stack(
-              children: <Widget>[
-                Pinned.fromPins(
-                  Pin(size: 182.0, start: 0.0),
-                  Pin(start: 2.6, end: 8.6),
-                  child: Text(
-                    'أسعار التذاكر',
-                    style: TextStyle(
-                      fontFamily: 'Hacen Promoter Md',
-                      fontSize: 35,
-                      color: const Color(0xffffffff),
-                      height: 0.6857142857142857,
-                    ),
-                    textHeightBehavior:
-                        TextHeightBehavior(applyHeightToFirstAscent: false),
-                    softWrap: false,
-                  ),
-                ),
-                Pinned.fromPins(
-                  Pin(size: 32.9, end: 0.0),
-                  Pin(start: 0.0, end: 0.0),
-                  child:
-                      // Adobe XD layer: 'Icon metro-money' (shape)
-                      SvgPicture.string(
-                    _svg_o9u25k,
-                    allowDrawingOutsideViewBox: true,
-                    fit: BoxFit.fill,
-                  ),
-                ),
-              ],
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 268.2, end: 34.8),
-            Pin(size: 47.0, middle: 0.49),
-            child: Stack(
-              children: <Widget>[
-                Align(
-                  alignment: Alignment(1.0, 0.272),
-                  child: SizedBox(
-                    width: 42.0,
-                    height: 25.0,
-                    child:
-                        // Adobe XD layer: 'Icon awesome-money-…' (shape)
-                        SvgPicture.string(
-                      _svg_o4kga5,
-                      allowDrawingOutsideViewBox: true,
-                    ),
-                  ),
-                ),
-                Pinned.fromPins(
-                  Pin(size: 191.0, start: 0.0),
-                  Pin(start: 0.0, end: 0.0),
-                  child: Text(
-                    'خطط الأسعار',
-                    style: TextStyle(
-                      fontFamily: 'Hacen Promoter Md',
-                      fontSize: 35,
-                      color: const Color(0xffffffff),
-                      height: 0.6857142857142857,
-                    ),
-                    textHeightBehavior:
-                        TextHeightBehavior(applyHeightToFirstAscent: false),
-                    textAlign: TextAlign.right,
-                    softWrap: false,
-                  ),
-                ),
-              ],
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 273.5, end: 35.5),
-            Pin(size: 47.0, middle: 0.303),
-            child: Stack(
-              children: <Widget>[
-                Pinned.fromPins(
-                  Pin(size: 40.8, end: 0.0),
-                  Pin(start: 6.0, end: 0.1),
-                  child:
-                      // Adobe XD layer: 'Icon awesome-user-c…' (shape)
-                      SvgPicture.string(
-                    _svg_ucxhm,
-                    allowDrawingOutsideViewBox: true,
-                    fit: BoxFit.fill,
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsets.fromLTRB(0.0, 0.0, 38.5, 0.0),
-                  child: SizedBox.expand(
-                      child: Text(
-                    'بيانات المستخدم',
-                    style: TextStyle(
-                      fontFamily: 'Hacen Promoter Md',
-                      fontSize: 35,
-                      color: const Color(0xffffffff),
-                      height: 0.6857142857142857,
-                    ),
-                    textHeightBehavior:
-                        TextHeightBehavior(applyHeightToFirstAscent: false),
-                    softWrap: false,
-                  )),
-                ),
-              ],
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 311.5, end: 35.5),
-            Pin(size: 47.0, middle: 0.213),
-            child: Stack(
-              children: <Widget>[
-                Pinned.fromPins(
-                  Pin(size: 235.0, start: 0.0),
-                  Pin(start: 0.0, end: 0.0),
-                  child: Text(
-                    'الصفحة الرئيسية',
-                    style: TextStyle(
-                      fontFamily: 'Hacen Promoter Md',
-                      fontSize: 35,
-                      color: const Color(0xffffffff),
-                      height: 0.6857142857142857,
-                    ),
-                    textHeightBehavior:
-                        TextHeightBehavior(applyHeightToFirstAscent: false),
-                    textAlign: TextAlign.right,
-                    softWrap: false,
-                  ),
-                ),
-                Pinned.fromPins(
-                  Pin(size: 40.5, end: 0.0),
-                  Pin(size: 31.5, end: 5.0),
-                  child:
-                      // Adobe XD layer: 'Icon awesome-home' (shape)
-                      SvgPicture.string(
-                    _svg_x5bxjy,
-                    allowDrawingOutsideViewBox: true,
-                    fit: BoxFit.fill,
-                  ),
-                ),
-              ],
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 36.0, start: 65.5),
-            Pin(size: 35.7, start: 35.1),
-            child:
-                // Adobe XD layer: 'Icon awesome-facebo…' (shape)
-                SvgPicture.string(
-              _svg_hfiw1k,
-              allowDrawingOutsideViewBox: true,
-              fit: BoxFit.fill,
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 32.9, start: 125.9),
-            Pin(size: 32.9, start: 36.5),
-            child:
-                // Adobe XD layer: 'Icon feather-instag…' (group)
-                Stack(
-              children: <Widget>[
-                SizedBox.expand(
-                    child: SvgPicture.string(
-                  _svg_s8mor4,
-                  allowDrawingOutsideViewBox: true,
-                  fit: BoxFit.fill,
-                )),
-                Center(
-                  child: SizedBox(
-                    width: 13.0,
-                    height: 13.0,
-                    child: SvgPicture.string(
-                      _svg_fk4f33,
-                      allowDrawingOutsideViewBox: true,
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment(0.599, -0.536),
-                  child: SizedBox(
-                    width: 1.0,
-                    height: 1.0,
-                    child: SvgPicture.string(
-                      _svg_mtlims,
-                      allowDrawingOutsideViewBox: true,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 41.3, start: 183.1),
-            Pin(size: 30.2, start: 37.7),
-            child:
-                // Adobe XD layer: 'Icon ionic-ios-mail…' (group)
-                Stack(
-              children: <Widget>[
-                Align(
-                  alignment: Alignment.topRight,
-                  child: SizedBox(
-                    width: 10.0,
-                    height: 10.0,
-                    child: SvgPicture.string(
-                      _svg_s7dtgo,
-                      allowDrawingOutsideViewBox: true,
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsets.fromLTRB(0.0, 1.6, 0.0, 0.0),
-                  child: Stack(
-                    children: <Widget>[
-                      Padding(
-                        padding: EdgeInsets.fromLTRB(0.0, 3.4, 0.0, 0.0),
-                        child: SizedBox.expand(
-                            child: SvgPicture.string(
-                          _svg_evoipl,
-                          allowDrawingOutsideViewBox: true,
-                          fit: BoxFit.fill,
-                        )),
-                      ),
-                      Pinned.fromPins(
-                        Pin(size: 31.4, start: 1.2),
-                        Pin(size: 18.2, start: 0.0),
-                        child: SvgPicture.string(
-                          _svg_qm1xgl,
-                          allowDrawingOutsideViewBox: true,
-                          fit: BoxFit.fill,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-          ),
-          Pinned.fromPins(
-            Pin(size: 1.0, end: 360.0),
+            Pin(size: 1.0, start: 361.0),
             Pin(size: 58.1, middle: 0.4022),
             child: SvgPicture.string(
-              _svg_xv2ibr,
+              _svg_n7hepm,
               allowDrawingOutsideViewBox: true,
               fit: BoxFit.fill,
             ),
           ),
-          Align(
-            alignment: Alignment(0.329, -0.243),
-            child: Container(
-              width: 252.0,
-              height: 168.0,
-              decoration: BoxDecoration(
-                color: const Color(0xff00334a),
-                borderRadius: BorderRadius.circular(19.0),
-                boxShadow: [
-                  BoxShadow(
-                    color: const Color(0x29000000),
-                    offset: Offset(0, 3),
-                    blurRadius: 6,
-                  ),
-                ],
-              ),
-            ),
-          ),
-          Align(
-            alignment: Alignment(0.352, -0.018),
-            child: Container(
-              width: 362.0,
-              height: 206.0,
-              decoration: BoxDecoration(
-                color: const Color(0xffffffff),
-                borderRadius: BorderRadius.circular(19.0),
-                boxShadow: [
-                  BoxShadow(
-                    color: const Color(0x29000000),
-                    offset: Offset(0, 3),
-                    blurRadius: 6,
-                  ),
-                ],
-              ),
-            ),
-          ),
-          Align(
-            alignment: Alignment(-0.216, -0.243),
-            child: Container(
-              width: 252.0,
-              height: 168.0,
-              decoration: BoxDecoration(
-                color: const Color(0xff00334a),
-                borderRadius: BorderRadius.circular(19.0),
-                boxShadow: [
-                  BoxShadow(
-                    color: const Color(0x29000000),
-                    offset: Offset(0, 3),
-                    blurRadius: 6,
-                  ),
-                ],
-              ),
-            ),
-          ),
           Pinned.fromPins(
-            Pin(size: 252.0, start: 207.0),
+            Pin(size: 252.0, end: 203.0),
             Pin(size: 168.0, middle: 0.3783),
             child: Container(
               decoration: BoxDecoration(
@@ -697,28 +377,78 @@ class XDWeb19205 extends StatelessWidget {
               ),
             ),
           ),
-          Align(
-            alignment: Alignment(0.31, -0.306),
-            child: SizedBox(
-              width: 150.0,
-              height: 67.0,
-              child: Text(
-                'تذكرة 1',
-                style: TextStyle(
-                  fontFamily: 'Hacen Promoter Md',
-                  fontSize: 50,
-                  color: const Color(0xff00da82),
-                  height: 0.48,
-                ),
-                textHeightBehavior:
-                    TextHeightBehavior(applyHeightToFirstAscent: false),
-                textAlign: TextAlign.center,
-                softWrap: false,
+          Pinned.fromPins(
+            Pin(size: 362.0, end: 148.0),
+            Pin(size: 206.0, middle: 0.4908),
+            child: Container(
+              decoration: BoxDecoration(
+                color: const Color(0xffffffff),
+                borderRadius: BorderRadius.circular(19.0),
+                boxShadow: [
+                  BoxShadow(
+                    color: const Color(0x29000000),
+                    offset: Offset(0, 3),
+                    blurRadius: 6,
+                  ),
+                ],
               ),
             ),
           ),
           Align(
-            alignment: Alignment(-0.203, -0.306),
+            alignment: Alignment(0.212, -0.243),
+            child: Container(
+              width: 252.0,
+              height: 168.0,
+              decoration: BoxDecoration(
+                color: const Color(0xff00334a),
+                borderRadius: BorderRadius.circular(19.0),
+                boxShadow: [
+                  BoxShadow(
+                    color: const Color(0x29000000),
+                    offset: Offset(0, 3),
+                    blurRadius: 6,
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Align(
+            alignment: Alignment(-0.324, -0.243),
+            child: Container(
+              width: 252.0,
+              height: 168.0,
+              decoration: BoxDecoration(
+                color: const Color(0xff00334a),
+                borderRadius: BorderRadius.circular(19.0),
+                boxShadow: [
+                  BoxShadow(
+                    color: const Color(0x29000000),
+                    offset: Offset(0, 3),
+                    blurRadius: 6,
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Pinned.fromPins(
+            Pin(size: 150.0, end: 254.0),
+            Pin(size: 67.0, middle: 0.3468),
+            child: Text(
+              'تذكرة 1',
+              style: TextStyle(
+                fontFamily: 'Hacen Promoter Md',
+                fontSize: 50,
+                color: const Color(0xff00da82),
+                height: 0.48,
+              ),
+              textHeightBehavior:
+                  TextHeightBehavior(applyHeightToFirstAscent: false),
+              textAlign: TextAlign.center,
+              softWrap: false,
+            ),
+          ),
+          Align(
+            alignment: Alignment(0.2, -0.306),
             child: SizedBox(
               width: 150.0,
               height: 67.0,
@@ -737,25 +467,28 @@ class XDWeb19205 extends StatelessWidget {
               ),
             ),
           ),
-          Pinned.fromPins(
-            Pin(size: 150.0, start: 258.0),
-            Pin(size: 67.0, middle: 0.3468),
-            child: Text(
-              'تذكرة 3',
-              style: TextStyle(
-                fontFamily: 'Hacen Promoter Md',
-                fontSize: 50,
-                color: const Color(0xff00da82),
-                height: 0.48,
+          Align(
+            alignment: Alignment(-0.305, -0.306),
+            child: SizedBox(
+              width: 150.0,
+              height: 67.0,
+              child: Text(
+                'تذكرة 3',
+                style: TextStyle(
+                  fontFamily: 'Hacen Promoter Md',
+                  fontSize: 50,
+                  color: const Color(0xff00da82),
+                  height: 0.48,
+                ),
+                textHeightBehavior:
+                    TextHeightBehavior(applyHeightToFirstAscent: false),
+                textAlign: TextAlign.center,
+                softWrap: false,
               ),
-              textHeightBehavior:
-                  TextHeightBehavior(applyHeightToFirstAscent: false),
-              textAlign: TextAlign.center,
-              softWrap: false,
             ),
           ),
           Align(
-            alignment: Alignment(0.273, -0.074),
+            alignment: Alignment(0.672, -0.074),
             child: SizedBox(
               width: 130.0,
               height: 54.0,
@@ -774,52 +507,45 @@ class XDWeb19205 extends StatelessWidget {
               ),
             ),
           ),
-          Align(
-            alignment: Alignment(0.353, -0.074),
-            child: SizedBox(
-              width: 22.0,
-              height: 54.0,
-              child: Text(
-                '9',
-                style: TextStyle(
-                  fontFamily: 'Hacen Promoter Md',
-                  fontSize: 41,
-                  color: const Color(0xff00334a),
-                  height: 1.1951219512195121,
-                ),
-                textHeightBehavior:
-                    TextHeightBehavior(applyHeightToFirstAscent: false),
-                textAlign: TextAlign.right,
-                softWrap: false,
+          Pinned.fromPins(
+            Pin(size: 22.0, end: 257.0),
+            Pin(size: 54.0, middle: 0.463),
+            child: Text(
+              '9',
+              style: TextStyle(
+                fontFamily: 'Hacen Promoter Md',
+                fontSize: 41,
+                color: const Color(0xff00334a),
+                height: 1.1951219512195121,
               ),
+              textHeightBehavior:
+                  TextHeightBehavior(applyHeightToFirstAscent: false),
+              textAlign: TextAlign.right,
+              softWrap: false,
             ),
           ),
-          Align(
-            alignment: Alignment(0.307, 0.097),
-            child: SizedBox(
-              width: 136.0,
-              height: 68.0,
-              child: Text(
-                '5 L.E',
-                style: TextStyle(
-                  fontFamily: 'Montserrat',
-                  fontSize: 56,
-                  color: const Color(0xff00da82),
-                  fontWeight: FontWeight.w700,
-                  height: 1.5892857142857142,
-                ),
-                textHeightBehavior:
-                    TextHeightBehavior(applyHeightToFirstAscent: false),
-                textAlign: TextAlign.center,
-                softWrap: false,
+          Pinned.fromPins(
+            Pin(size: 136.0, end: 261.0),
+            Pin(size: 68.0, middle: 0.5484),
+            child: Text(
+              '5 L.E',
+              style: TextStyle(
+                fontFamily: 'Montserrat',
+                fontSize: 56,
+                color: const Color(0xff00da82),
+                fontWeight: FontWeight.w700,
+                height: 1.5892857142857142,
               ),
+              textHeightBehavior:
+                  TextHeightBehavior(applyHeightToFirstAscent: false),
+              textAlign: TextAlign.center,
+              softWrap: false,
             ),
           ),
-          Align(
-            alignment: Alignment(0.314, 0.322),
+          Pinned.fromPins(
+            Pin(size: 174.0, end: 242.0),
+            Pin(size: 57.0, middle: 0.6608),
             child: Container(
-              width: 174.0,
-              height: 57.0,
               decoration: BoxDecoration(
                 color: const Color(0xff00334a),
                 borderRadius: BorderRadius.circular(10.0),
@@ -833,28 +559,25 @@ class XDWeb19205 extends StatelessWidget {
               ),
             ),
           ),
-          Align(
-            alignment: Alignment(0.308, 0.314),
-            child: SizedBox(
-              width: 138.0,
-              height: 54.0,
-              child: Text(
-                'حجز الآن',
-                style: TextStyle(
-                  fontFamily: 'Hacen Promoter Md',
-                  fontSize: 41,
-                  color: const Color(0xffffffff),
-                  height: 1.146341463414634,
-                ),
-                textHeightBehavior:
-                    TextHeightBehavior(applyHeightToFirstAscent: false),
-                textAlign: TextAlign.center,
-                softWrap: false,
+          Pinned.fromPins(
+            Pin(size: 138.0, end: 260.0),
+            Pin(size: 54.0, middle: 0.6569),
+            child: Text(
+              'حجز الآن',
+              style: TextStyle(
+                fontFamily: 'Hacen Promoter Md',
+                fontSize: 41,
+                color: const Color(0xffffffff),
+                height: 1.146341463414634,
               ),
+              textHeightBehavior:
+                  TextHeightBehavior(applyHeightToFirstAscent: false),
+              textAlign: TextAlign.center,
+              softWrap: false,
             ),
           ),
           Align(
-            alignment: Alignment(-0.231, -0.018),
+            alignment: Alignment(0.227, -0.018),
             child: Container(
               width: 362.0,
               height: 206.0,
@@ -871,10 +594,11 @@ class XDWeb19205 extends StatelessWidget {
               ),
             ),
           ),
-          Pinned.fromPins(
-            Pin(size: 362.0, start: 152.0),
-            Pin(size: 206.0, middle: 0.4908),
+          Align(
+            alignment: Alignment(-0.347, -0.018),
             child: Container(
+              width: 362.0,
+              height: 206.0,
               decoration: BoxDecoration(
                 color: const Color(0xffffffff),
                 borderRadius: BorderRadius.circular(19.0),
@@ -889,7 +613,7 @@ class XDWeb19205 extends StatelessWidget {
             ),
           ),
           Align(
-            alignment: Alignment(-0.276, -0.074),
+            alignment: Alignment(0.123, -0.074),
             child: SizedBox(
               width: 130.0,
               height: 54.0,
@@ -909,7 +633,7 @@ class XDWeb19205 extends StatelessWidget {
             ),
           ),
           Align(
-            alignment: Alignment(-0.137, -0.074),
+            alignment: Alignment(0.256, -0.074),
             child: SizedBox(
               width: 105.0,
               height: 54.0,
@@ -928,50 +652,53 @@ class XDWeb19205 extends StatelessWidget {
               ),
             ),
           ),
-          Pinned.fromPins(
-            Pin(size: 209.0, start: 217.0),
-            Pin(size: 54.0, middle: 0.463),
-            child: Stack(
-              children: <Widget>[
-                Pinned.fromPins(
-                  Pin(size: 130.0, start: 0.0),
-                  Pin(start: 0.0, end: 0.0),
-                  child: Text(
-                    'محطات',
-                    style: TextStyle(
-                      fontFamily: 'Hacen Promoter Md',
-                      fontSize: 41,
-                      color: const Color(0xff00334a),
-                      height: 1.1951219512195121,
+          Align(
+            alignment: Alignment(-0.329, -0.074),
+            child: SizedBox(
+              width: 209.0,
+              height: 54.0,
+              child: Stack(
+                children: <Widget>[
+                  Pinned.fromPins(
+                    Pin(size: 130.0, start: 0.0),
+                    Pin(start: 0.0, end: 0.0),
+                    child: Text(
+                      'محطات',
+                      style: TextStyle(
+                        fontFamily: 'Hacen Promoter Md',
+                        fontSize: 41,
+                        color: const Color(0xff00334a),
+                        height: 1.1951219512195121,
+                      ),
+                      textHeightBehavior:
+                          TextHeightBehavior(applyHeightToFirstAscent: false),
+                      textAlign: TextAlign.right,
+                      softWrap: false,
                     ),
-                    textHeightBehavior:
-                        TextHeightBehavior(applyHeightToFirstAscent: false),
-                    textAlign: TextAlign.right,
-                    softWrap: false,
                   ),
-                ),
-                Pinned.fromPins(
-                  Pin(size: 72.0, end: 0.0),
-                  Pin(start: 0.0, end: 0.0),
-                  child: Text(
-                    '16+',
-                    style: TextStyle(
-                      fontFamily: 'Hacen Promoter Md',
-                      fontSize: 41,
-                      color: const Color(0xff00334a),
-                      height: 1.1951219512195121,
+                  Pinned.fromPins(
+                    Pin(size: 72.0, end: 0.0),
+                    Pin(start: 0.0, end: 0.0),
+                    child: Text(
+                      '16+',
+                      style: TextStyle(
+                        fontFamily: 'Hacen Promoter Md',
+                        fontSize: 41,
+                        color: const Color(0xff00334a),
+                        height: 1.1951219512195121,
+                      ),
+                      textHeightBehavior:
+                          TextHeightBehavior(applyHeightToFirstAscent: false),
+                      textAlign: TextAlign.right,
+                      softWrap: false,
                     ),
-                    textHeightBehavior:
-                        TextHeightBehavior(applyHeightToFirstAscent: false),
-                    textAlign: TextAlign.right,
-                    softWrap: false,
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
           ),
           Align(
-            alignment: Alignment(-0.202, 0.097),
+            alignment: Alignment(0.199, 0.097),
             child: SizedBox(
               width: 138.0,
               height: 68.0,
@@ -991,26 +718,29 @@ class XDWeb19205 extends StatelessWidget {
               ),
             ),
           ),
-          Pinned.fromPins(
-            Pin(size: 164.0, start: 251.0),
-            Pin(size: 68.0, middle: 0.5484),
-            child: Text(
-              '10 L.E',
-              style: TextStyle(
-                fontFamily: 'Montserrat',
-                fontSize: 56,
-                color: const Color(0xff00da82),
-                fontWeight: FontWeight.w700,
-                height: 1.5892857142857142,
+          Align(
+            alignment: Alignment(-0.308, 0.097),
+            child: SizedBox(
+              width: 164.0,
+              height: 68.0,
+              child: Text(
+                '10 L.E',
+                style: TextStyle(
+                  fontFamily: 'Montserrat',
+                  fontSize: 56,
+                  color: const Color(0xff00da82),
+                  fontWeight: FontWeight.w700,
+                  height: 1.5892857142857142,
+                ),
+                textHeightBehavior:
+                    TextHeightBehavior(applyHeightToFirstAscent: false),
+                textAlign: TextAlign.center,
+                softWrap: false,
               ),
-              textHeightBehavior:
-                  TextHeightBehavior(applyHeightToFirstAscent: false),
-              textAlign: TextAlign.center,
-              softWrap: false,
             ),
           ),
           Align(
-            alignment: Alignment(-0.206, 0.322),
+            alignment: Alignment(0.203, 0.322),
             child: Container(
               width: 174.0,
               height: 57.0,
@@ -1027,10 +757,11 @@ class XDWeb19205 extends StatelessWidget {
               ),
             ),
           ),
-          Pinned.fromPins(
-            Pin(size: 174.0, start: 246.0),
-            Pin(size: 57.0, middle: 0.6608),
+          Align(
+            alignment: Alignment(-0.309, 0.322),
             child: Container(
+              width: 174.0,
+              height: 57.0,
               decoration: BoxDecoration(
                 color: const Color(0xff00334a),
                 borderRadius: BorderRadius.circular(10.0),
@@ -1045,7 +776,7 @@ class XDWeb19205 extends StatelessWidget {
             ),
           ),
           Align(
-            alignment: Alignment(-0.202, 0.314),
+            alignment: Alignment(0.199, 0.314),
             child: SizedBox(
               width: 138.0,
               height: 54.0,
@@ -1064,16 +795,53 @@ class XDWeb19205 extends StatelessWidget {
               ),
             ),
           ),
+          Align(
+            alignment: Alignment(-0.303, 0.314),
+            child: SizedBox(
+              width: 138.0,
+              height: 54.0,
+              child: Text(
+                'حجز الآن',
+                style: TextStyle(
+                  fontFamily: 'Hacen Promoter Md',
+                  fontSize: 41,
+                  color: const Color(0xffffffff),
+                  height: 1.146341463414634,
+                ),
+                textHeightBehavior:
+                    TextHeightBehavior(applyHeightToFirstAscent: false),
+                textAlign: TextAlign.center,
+                softWrap: false,
+              ),
+            ),
+          ),
+          Align(
+            alignment: Alignment.topRight,
+            child: Container(
+              width: 1559.0,
+              height: 106.0,
+              decoration: BoxDecoration(
+                color: const Color(0xffffffff),
+                boxShadow: [
+                  BoxShadow(
+                    color: const Color(0x29000000),
+                    offset: Offset(0, 3),
+                    blurRadius: 6,
+                  ),
+                ],
+              ),
+            ),
+          ),
           Pinned.fromPins(
-            Pin(size: 138.0, start: 264.0),
-            Pin(size: 54.0, middle: 0.6569),
+            Pin(size: 234.0, middle: 0.6079),
+            Pin(size: 60.0, start: 16.0),
             child: Text(
-              'حجز الآن',
+              'أسعار التذاكر',
               style: TextStyle(
                 fontFamily: 'Hacen Promoter Md',
-                fontSize: 41,
-                color: const Color(0xffffffff),
-                height: 1.146341463414634,
+                fontSize: 45,
+                color: const Color(0xff00334a),
+                height: 0.5333333333333333,
               ),
               textHeightBehavior:
                   TextHeightBehavior(applyHeightToFirstAscent: false),
@@ -1082,24 +850,132 @@ class XDWeb19205 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 234.2, middle: 0.7319),
+            Pin(size: 63.9, start: 24.1),
+            Pin(size: 48.7, end: 35.1),
+            child: SvgPicture.string(
+              _svg_ckrrae,
+              allowDrawingOutsideViewBox: true,
+              fit: BoxFit.fill,
+            ),
+          ),
+          Pinned.fromPins(
+            Pin(size: 1405.1, end: 91.0),
             Pin(size: 69.1, start: 18.2),
             child: Stack(
               children: <Widget>[
+                Align(
+                  alignment: Alignment.centerRight,
+                  child: SizedBox(
+                    width: 159.0,
+                    height: 36.0,
+                    child: Stack(
+                      children: <Widget>[
+                        Pinned.fromPins(
+                          Pin(size: 36.0, start: 0.0),
+                          Pin(start: 0.0, end: 0.0),
+                          child: SvgPicture.string(
+                            _svg_kv1h2g,
+                            allowDrawingOutsideViewBox: true,
+                            fit: BoxFit.fill,
+                          ),
+                        ),
+                        Pinned.fromPins(
+                          Pin(size: 32.9, middle: 0.4787),
+                          Pin(start: 1.4, end: 1.4),
+                          child: Stack(
+                            children: <Widget>[
+                              SizedBox.expand(
+                                  child: SvgPicture.string(
+                                _svg_s8mor4,
+                                allowDrawingOutsideViewBox: true,
+                                fit: BoxFit.fill,
+                              )),
+                              Center(
+                                child: SizedBox(
+                                  width: 13.0,
+                                  height: 13.0,
+                                  child: SvgPicture.string(
+                                    _svg_fk4f33,
+                                    allowDrawingOutsideViewBox: true,
+                                  ),
+                                ),
+                              ),
+                              Align(
+                                alignment: Alignment(0.599, -0.536),
+                                child: SizedBox(
+                                  width: 1.0,
+                                  height: 1.0,
+                                  child: SvgPicture.string(
+                                    _svg_mtlims,
+                                    allowDrawingOutsideViewBox: true,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Pinned.fromPins(
+                          Pin(size: 41.3, end: 0.0),
+                          Pin(start: 2.6, end: 3.0),
+                          child: Stack(
+                            children: <Widget>[
+                              Align(
+                                alignment: Alignment.topRight,
+                                child: SizedBox(
+                                  width: 10.0,
+                                  height: 10.0,
+                                  child: SvgPicture.string(
+                                    _svg_s7dtgo,
+                                    allowDrawingOutsideViewBox: true,
+                                  ),
+                                ),
+                              ),
+                              Padding(
+                                padding:
+                                    EdgeInsets.fromLTRB(0.0, 1.6, 0.0, 0.0),
+                                child: Stack(
+                                  children: <Widget>[
+                                    Padding(
+                                      padding: EdgeInsets.fromLTRB(
+                                          0.0, 3.4, 0.0, 0.0),
+                                      child: SizedBox.expand(
+                                          child: SvgPicture.string(
+                                        _svg_evoipl,
+                                        allowDrawingOutsideViewBox: true,
+                                        fit: BoxFit.fill,
+                                      )),
+                                    ),
+                                    Pinned.fromPins(
+                                      Pin(size: 31.4, start: 1.2),
+                                      Pin(size: 18.2, start: 0.0),
+                                      child: SvgPicture.string(
+                                        _svg_qm1xgl,
+                                        allowDrawingOutsideViewBox: true,
+                                        fit: BoxFit.fill,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
                 Pinned.fromPins(
-                  Pin(size: 69.1, end: 0.0),
+                  Pin(size: 69.1, start: 0.0),
                   Pin(start: 0.0, end: 0.0),
-                  child:
-                      // Adobe XD layer: 'Icon awesome-user-c…' (shape)
-                      SvgPicture.string(
-                    _svg_h8tz6v,
+                  child: SvgPicture.string(
+                    _svg_etptud,
                     allowDrawingOutsideViewBox: true,
                     fit: BoxFit.fill,
                   ),
                 ),
                 Pinned.fromPins(
-                  Pin(size: 173.0, start: 0.0),
-                  Pin(size: 47.0, start: 7.8),
+                  Pin(size: 173.0, start: 88.1),
+                  Pin(size: 47.0, start: 8.0),
                   child: Text(
                     'يوسف رشيد',
                     style: TextStyle(
@@ -1117,20 +993,105 @@ class XDWeb19205 extends StatelessWidget {
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 234.0, middle: 0.3938),
-            Pin(size: 60.0, start: 16.0),
+            Pin(size: 182.0, start: 111.5),
+            Pin(size: 47.0, middle: 0.4003),
             child: Text(
               'أسعار التذاكر',
               style: TextStyle(
                 fontFamily: 'Hacen Promoter Md',
-                fontSize: 45,
-                color: const Color(0xff00334a),
-                height: 0.5333333333333333,
+                fontSize: 35,
+                color: const Color(0xffffffff),
+                height: 0.6857142857142857,
               ),
               textHeightBehavior:
                   TextHeightBehavior(applyHeightToFirstAscent: false),
-              textAlign: TextAlign.center,
               softWrap: false,
+            ),
+          ),
+          Pinned.fromPins(
+            Pin(size: 32.9, start: 51.0),
+            Pin(size: 58.2, middle: 0.4022),
+            child: SvgPicture.string(
+              _svg_o1kid6,
+              allowDrawingOutsideViewBox: true,
+              fit: BoxFit.fill,
+            ),
+          ),
+          Pinned.fromPins(
+            Pin(size: 41.5, start: 47.0),
+            Pin(size: 24.9, middle: 0.4931),
+            child: SvgPicture.string(
+              _svg_n3wm7z,
+              allowDrawingOutsideViewBox: true,
+              fit: BoxFit.fill,
+            ),
+          ),
+          Pinned.fromPins(
+            Pin(size: 191.0, start: 79.5),
+            Pin(size: 47.0, middle: 0.49),
+            child: Text(
+              'خطط الأسعار',
+              style: TextStyle(
+                fontFamily: 'Hacen Promoter Md',
+                fontSize: 35,
+                color: const Color(0xffffffff),
+                height: 0.6857142857142857,
+              ),
+              textHeightBehavior:
+                  TextHeightBehavior(applyHeightToFirstAscent: false),
+              textAlign: TextAlign.right,
+              softWrap: false,
+            ),
+          ),
+          Pinned.fromPins(
+            Pin(size: 40.8, start: 47.0),
+            Pin(size: 40.8, middle: 0.3071),
+            child: SvgPicture.string(
+              _svg_cjtun2,
+              allowDrawingOutsideViewBox: true,
+              fit: BoxFit.fill,
+            ),
+          ),
+          Pinned.fromPins(
+            Pin(size: 235.0, start: 111.5),
+            Pin(size: 47.0, middle: 0.303),
+            child: Text(
+              'بيانات المستخدم',
+              style: TextStyle(
+                fontFamily: 'Hacen Promoter Md',
+                fontSize: 35,
+                color: const Color(0xffffffff),
+                height: 0.6857142857142857,
+              ),
+              textHeightBehavior:
+                  TextHeightBehavior(applyHeightToFirstAscent: false),
+              softWrap: false,
+            ),
+          ),
+          Pinned.fromPins(
+            Pin(size: 235.0, start: 76.5),
+            Pin(size: 47.0, middle: 0.213),
+            child: Text(
+              'الصفحة الرئيسية',
+              style: TextStyle(
+                fontFamily: 'Hacen Promoter Md',
+                fontSize: 35,
+                color: const Color(0xffffffff),
+                height: 0.6857142857142857,
+              ),
+              textHeightBehavior:
+                  TextHeightBehavior(applyHeightToFirstAscent: false),
+              textAlign: TextAlign.right,
+              softWrap: false,
+            ),
+          ),
+          Pinned.fromPins(
+            Pin(size: 40.5, start: 47.0),
+            Pin(size: 31.5, middle: 0.2198),
+            child: SvgPicture.string(
+              _svg_kf596,
+              allowDrawingOutsideViewBox: true,
+              fit: BoxFit.fill,
             ),
           ),
         ],
@@ -1185,31 +1146,31 @@ const String _svg_uj5m =
     '<svg viewBox="103.1 76.8 2.0 2.0" ><path transform="translate(-279.28, -208.06)" d="M 384.1470031738281 285.1798095703125 C 384.0553588867188 285.0880737304688 383.9477844238281 285.01611328125 383.8244934082031 284.9637451171875 C 383.7015380859375 284.9114685058594 383.5691528320312 284.8850402832031 383.4277954101562 284.8850402832031 C 383.2862243652344 284.8850402832031 383.1540832519531 284.9114685058594 383.0308532714844 284.9637451171875 C 382.9075927734375 285.01611328125 382.7991943359375 285.0880737304688 382.7045593261719 285.1798095703125 C 382.6104125976562 285.271484375 382.5370483398438 285.3790893554688 382.4847717285156 285.5020141601562 C 382.4321594238281 285.6250305175781 382.406005859375 285.7601318359375 382.406005859375 285.9068298339844 C 382.406005859375 286.0430297851562 382.4321594238281 286.1727294921875 382.4847717285156 286.2959594726562 C 382.5370483398438 286.4189453125 382.6104125976562 286.5262451171875 382.7045593261719 286.6179809570312 C 382.7991943359375 286.7099304199219 382.9075927734375 286.7830200195312 383.0308532714844 286.8383178710938 C 383.1540832519531 286.893310546875 383.2862243652344 286.9208068847656 383.4277954101562 286.9208068847656 C 383.5691528320312 286.9208068847656 383.7015380859375 286.893310546875 383.8244934082031 286.8383178710938 C 383.9477844238281 286.7830200195312 384.0553588867188 286.7099304199219 384.1470031738281 286.6179809570312 C 384.2384338378906 286.5262451171875 384.3107299804688 286.4189453125 384.3630065917969 286.2959594726562 C 384.4154357910156 286.1727294921875 384.4417724609375 286.0430297851562 384.4417724609375 285.9068298339844 C 384.4417724609375 285.7601318359375 384.4154357910156 285.6250305175781 384.3630065917969 285.5020141601562 C 384.3107299804688 285.3790893554688 384.2384338378906 285.271484375 384.1470031738281 285.1798095703125" fill="#ffffff" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
 const String _svg_u68t96 =
     '<svg viewBox="94.8 66.5 26.2 12.2" ><path transform="translate(-256.8, -180.03)" d="M 376.8424987792969 246.5010070800781 C 376.5440063476562 246.5166168212891 376.3145141601562 246.6137390136719 376.1548461914062 246.7917327880859 C 375.9949340820312 246.969970703125 375.89404296875 247.2242736816406 375.8522644042969 247.5543975830078 L 375.8522644042969 253.9127807617188 L 374.744140625 253.9127807617188 L 374.6104125976562 253.9127807617188 L 373.4391784667969 253.9127807617188 L 373.4391784667969 250.1874694824219 L 366.6719055175781 250.1874694824219 L 366.6719055175781 250.9577178955078 C 366.6719055175781 251.1672210693359 366.6953430175781 251.340087890625 366.7428283691406 251.4762878417969 C 366.794921875 251.6283721923828 366.8668823242188 251.7513732910156 366.9588317871094 251.8457489013672 C 367.05029296875 251.9401245117188 367.1576232910156 252.0069732666016 367.2811279296875 252.0461120605469 C 367.4041137695312 252.0854797363281 367.5338134765625 252.1078491210938 367.6702880859375 252.1129608154297 L 371.4743347167969 252.1129608154297 L 371.4743347167969 253.9127807617188 L 365.830810546875 253.9127807617188 L 365.7288513183594 253.9127807617188 L 364.5260925292969 253.9127807617188 L 364.5260925292969 250.1874694824219 L 357.7585754394531 250.1874694824219 L 357.7585754394531 250.9577178955078 C 357.7585754394531 251.1672210693359 357.7822875976562 251.340087890625 357.8294982910156 251.4762878417969 C 357.8818054199219 251.6283721923828 357.9537963867188 251.7513732910156 358.0455017089844 251.8457489013672 C 358.13720703125 251.9401245117188 358.2448120117188 252.0069732666016 358.3677673339844 252.0461120605469 C 358.4909973144531 252.0854797363281 358.6204833984375 252.1078491210938 358.7568969726562 252.1129608154297 L 362.5612487792969 252.1129608154297 L 362.5612487792969 253.9127807617188 L 356.8705139160156 253.9127807617188 L 356.8154907226562 253.9127807617188 L 355.6993408203125 253.9127807617188 L 355.6993408203125 250.1874694824219 L 354.7090759277344 250.1874694824219 C 353.9963073730469 250.3708801269531 353.6400451660156 250.9315338134766 353.6400451660156 251.8694458007812 L 353.6400451660156 256.1842956542969 C 353.5980224609375 256.4412841796875 353.5127868652344 256.6834716796875 353.3844299316406 256.9113159179688 C 353.2560119628906 257.1395263671875 353.1004638671875 257.3568725585938 352.9170532226562 257.56396484375 C 352.7333984375 257.7708435058594 352.5303649902344 257.96875 352.3075866699219 258.1572265625 C 352.0851440429688 258.3457641601562 351.8585510253906 258.5294189453125 351.6280212402344 258.7076721191406 L 353.9544982910156 258.7076721191406 C 354.2319946289062 258.5081176757812 354.4679565429688 258.3052978515625 354.6618957519531 258.0984497070312 C 354.8554992675781 257.891357421875 355.0181274414062 257.67236328125 355.149169921875 257.4420776367188 C 355.2802124023438 257.2115173339844 355.3848571777344 256.9679870605469 355.463623046875 256.7109985351562 C 355.5420837402344 256.4544982910156 355.6051940917969 256.1764526367188 355.6521301269531 255.8779754638672 L 356.8154907226562 255.8779754638672 L 356.8705139160156 255.8779754638672 L 365.7288513183594 255.8779754638672 L 365.830810546875 255.8779754638672 L 374.6104125976562 255.8779754638672 L 374.744140625 255.8779754638672 L 376.2923583984375 255.8779754638672 C 376.5019226074219 255.8779754638672 376.6958312988281 255.8334350585938 376.8740539550781 255.7441864013672 C 377.0679321289062 255.6446685791016 377.2356872558594 255.4979705810547 377.3770446777344 255.3043518066406 C 377.5185852050781 255.1104278564453 377.6286315917969 254.8717651367188 377.7070922851562 254.5888977050781 C 377.7750549316406 254.3216247558594 377.8092956542969 254.0257873535156 377.8092956542969 253.7008666992188 L 377.8092956542969 246.5010070800781 L 376.8424987792969 246.5010070800781 Z" fill="#ffffff" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
-const String _svg_b7idbz =
-    '<svg viewBox="1821.3 996.2 63.9 48.7" ><path transform="translate(1821.28, 991.67)" d="M 63.06124114990234 31.0199146270752 L 41.74476623535156 52.33639144897461 C 39.84151077270508 54.23965454101562 36.54253005981445 52.90737152099609 36.54253005981445 50.17937088012695 L 36.54253005981445 37.9985237121582 L 19.28633689880371 37.9985237121582 C 17.59878349304199 37.9985237121582 16.24112510681152 36.64086532592773 16.24112510681152 34.95331192016602 L 16.24112510681152 22.77246856689453 C 16.24112510681152 21.08491325378418 17.59878349304199 19.72725868225098 19.28633689880371 19.72725868225098 L 36.54253005981445 19.72725868225098 L 36.54253005981445 7.546414375305176 C 36.54253005981445 4.831101894378662 39.82882690429688 3.486133337020874 41.74476623535156 5.389389991760254 L 63.06124114990234 26.70586585998535 C 64.24126434326172 27.89857482910156 64.24126434326172 29.82720565795898 63.06124114990234 31.0199146270752 Z M 24.36168670654297 51.70197677612305 L 24.36168670654297 46.62662124633789 C 24.36168670654297 45.78918838500977 23.67651748657227 45.10401153564453 22.83908271789551 45.10401153564453 L 12.18084335327148 45.10401153564453 C 9.935001373291016 45.10401153564453 8.120562553405762 43.28957748413086 8.120562553405762 41.04373550415039 L 8.120562553405762 16.68204689025879 C 8.120562553405762 14.43620300292969 9.935001373291016 12.62176704406738 12.18084335327148 12.62176704406738 L 22.83908271789551 12.62176704406738 C 23.67651748657227 12.62176704406738 24.36168670654297 11.93659400939941 24.36168670654297 11.09916114807129 L 24.36168670654297 6.02380895614624 C 24.36168670654297 5.186375141143799 23.67651748657227 4.501203536987305 22.83908271789551 4.501203536987305 L 12.18084335327148 4.501203536987305 C 5.456002712249756 4.501203536987305 0 9.957206726074219 0 16.68204689025879 L 0 41.04373550415039 C 0 47.76858139038086 5.456002712249756 53.22458648681641 12.18084335327148 53.22458648681641 L 22.83908271789551 53.22458648681641 C 23.67651748657227 53.22458648681641 24.36168670654297 52.53940582275391 24.36168670654297 51.70197677612305 Z" fill="#ffffff" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
-const String _svg_o9u25k =
-    '<svg viewBox="1848.0 411.0 32.9 58.2" ><path transform="translate(1837.31, 404.53)" d="M 28.42070007324219 31.96741485595703 C 21.08183670043945 30.05998229980469 18.72172546386719 28.10396957397461 18.72172546386719 25.03265380859375 C 18.72172546386719 21.50867080688477 21.97088050842285 19.03543090820312 27.45079612731934 19.03543090820312 C 33.20554733276367 19.03543090820312 35.33932495117188 21.78349876403809 35.53330612182617 25.82470893859863 L 42.67819213867188 25.82470893859863 C 42.46807098388672 20.24780082702637 39.05721664428711 15.17198181152344 32.30028915405273 13.50701808929443 L 32.30028915405273 6.426767349243164 L 22.60131454467773 6.426767349243164 L 22.60131454467773 13.41002559661865 C 16.32934379577637 14.78402137756348 11.28587627410889 18.8253116607666 11.28587627410889 25.08114624023438 C 11.28587627410889 32.54935455322266 17.47707748413086 36.26731872558594 26.48090171813965 38.43336486816406 C 34.57954406738281 40.37316131591797 36.17987442016602 43.20200347900391 36.17987442016602 46.24104309082031 C 36.17987442016602 48.45565795898438 34.61190032958984 52.01192855834961 27.45079612731934 52.01192855834961 C 20.79086494445801 52.01192855834961 18.15592765808105 49.02138137817383 17.81646537780762 45.22265243530273 L 10.68771934509277 45.22265243530273 C 11.09181880950928 52.30289077758789 16.37775611877441 56.26332855224609 22.60131454467773 57.6049690246582 L 22.60131454467773 64.62059020996094 L 32.30028915405273 64.62059020996094 L 32.30028915405273 57.66969299316406 C 38.58847427368164 56.45732116699219 43.61573028564453 52.82020568847656 43.61573028564453 46.17641448974609 C 43.61573028564453 37.02701950073242 35.75955963134766 33.89107894897461 28.42070007324219 31.96742630004883 Z" fill="#00da82" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
-const String _svg_o4kga5 =
-    '<svg viewBox="1843.7 520.2 41.5 24.9" ><path transform="translate(1843.69, 515.71)" d="M 22.84406661987305 19.03713607788086 L 21.80570030212402 19.03713607788086 L 21.80570030212402 13.32611846923828 C 21.80570030212402 13.03926849365234 21.57336807250977 12.80693435668945 21.28651809692383 12.80693435668945 L 20.40520477294922 12.80693435668945 C 20.09758949279785 12.80693435668945 19.79711151123047 12.89779090881348 19.54141235351562 13.06847190856934 L 18.54652786254883 13.73172950744629 C 18.30789184570312 13.89061546325684 18.24336624145508 14.21294212341309 18.40245246887207 14.45144653320312 L 18.9787483215332 15.31523895263672 C 19.13763427734375 15.55387878417969 19.4599609375 15.61840057373047 19.69846725463867 15.45931243896484 L 19.72896766662598 15.4391918182373 L 19.72896766662598 19.03713607788086 L 18.69060134887695 19.03713607788086 C 18.40375328063965 19.03713607788086 18.17141723632812 19.26947021484375 18.17141723632812 19.55631828308105 L 18.17141723632812 20.59468460083008 C 18.17141723632812 20.88153457641602 18.40375328063965 21.11386680603027 18.69060134887695 21.11386680603027 L 22.84406661987305 21.11386680603027 C 23.13091850280762 21.11386680603027 23.36325073242188 20.88153457641602 23.36325073242188 20.59468460083008 L 23.36325073242188 19.55631828308105 C 23.36325073242188 19.26947021484375 23.13091850280762 19.03713607788086 22.84406661987305 19.03713607788086 Z M 39.45793533325195 4.5 L 2.076733350753784 4.5 C 0.9299871921539307 4.5 0 5.42998743057251 0 6.576733589172363 L 0 27.34406852722168 C 0 28.49081420898438 0.9299871921539307 29.42080307006836 2.076733350753784 29.42080307006836 L 39.45793533325195 29.42080307006836 C 40.60468292236328 29.42080307006836 41.53466796875 28.49081420898438 41.53466796875 27.34406852722168 L 41.53466796875 6.576733589172363 C 41.53466796875 5.42998743057251 40.60468292236328 4.5 39.45793533325195 4.5 Z M 3.115100383758545 26.30570220947266 L 3.115100383758545 22.15223503112793 C 5.409242153167725 22.15223503112793 7.268566608428955 24.01156234741211 7.268566608428955 26.30570220947266 L 3.115100383758545 26.30570220947266 Z M 3.115100383758545 11.76856803894043 L 3.115100383758545 7.615100860595703 L 7.268566608428955 7.615100860595703 C 7.268566608428955 9.909242630004883 5.409242153167725 11.76856803894043 3.115100383758545 11.76856803894043 Z M 20.767333984375 24.22896957397461 C 17.32644844055176 24.22896957397461 14.53713321685791 20.97433662414551 14.53713321685791 16.96040153503418 C 14.53713321685791 12.94581604003906 17.32644844055176 9.69183349609375 20.767333984375 9.69183349609375 C 24.20822334289551 9.69183349609375 26.99753379821777 12.94581604003906 26.99753379821777 16.96040153503418 C 26.99753379821777 20.97563743591309 24.20692253112793 24.22896957397461 20.767333984375 24.22896957397461 Z M 38.4195671081543 26.30570220947266 L 34.2661018371582 26.30570220947266 C 34.2661018371582 24.01156234741211 36.12542724609375 22.15223503112793 38.4195671081543 22.15223503112793 L 38.4195671081543 26.30570220947266 Z M 38.4195671081543 11.76856803894043 C 36.12542724609375 11.76856803894043 34.2661018371582 9.909242630004883 34.2661018371582 7.615100860595703 L 38.4195671081543 7.615100860595703 L 38.4195671081543 11.76856803894043 Z" fill="#00da82" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
-const String _svg_ucxhm =
-    '<svg viewBox="1843.7 319.1 40.8 40.8" ><path transform="translate(1843.69, 318.53)" d="M 20.40600967407227 0.5624998807907104 C 9.133334159851074 0.5624998807907104 0 9.695833206176758 0 20.96850967407227 C 0 32.24117660522461 9.133334159851074 41.37451553344727 20.40600967407227 41.37451553344727 C 31.67868423461914 41.37451553344727 40.81201934814453 32.24117660522461 40.81201934814453 20.96850967407227 C 40.81201934814453 9.695833206176758 31.67868423461914 0.5624998807907104 20.40600967407227 0.5624998807907104 Z M 20.40600967407227 8.461599349975586 C 24.4049243927002 8.461599349975586 27.64684867858887 11.70352172851562 27.64684867858887 15.70244216918945 C 27.64684867858887 19.70136070251465 24.4049243927002 22.94328308105469 20.40600967407227 22.94328308105469 C 16.40708923339844 22.94328308105469 13.16516780853271 19.70136070251465 13.16516780853271 15.70244216918945 C 13.16516780853271 11.70352172851562 16.40708923339844 8.461599349975586 20.40600967407227 8.461599349975586 Z M 20.40600967407227 36.76670455932617 C 15.57603740692139 36.76670455932617 11.24798965454102 34.57799530029297 8.351652145385742 31.15505409240723 C 9.898558616638184 28.24226379394531 12.92654895782471 26.23457145690918 16.45645713806152 26.23457145690918 C 16.65393447875977 26.23457145690918 16.85141372680664 26.26748847961426 17.04066276550293 26.32508277893066 C 18.11033248901367 26.6706714630127 19.22937202453613 26.8928337097168 20.40600967407227 26.8928337097168 C 21.58264541625977 26.8928337097168 22.70991134643555 26.6706714630127 23.7713565826416 26.32508277893066 C 23.96060562133789 26.26748275756836 24.1580810546875 26.23457145690918 24.35555839538574 26.23457145690918 C 27.88547134399414 26.23457145690918 30.9134578704834 28.24226379394531 32.46036148071289 31.15505409240723 C 29.56402778625488 34.57799530029297 25.23597717285156 36.76670455932617 20.40600967407227 36.76670455932617 Z" fill="#00da82" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
-const String _svg_x5bxjy =
-    '<svg viewBox="1844.0 230.5 40.5 31.5" ><path transform="translate(1844.0, 228.24)" d="M 19.71351623535156 10.42453098297119 L 6.75 21.10148429870605 L 6.75 32.625 C 6.75 33.24631881713867 7.253679752349854 33.75 7.875 33.75 L 15.75421905517578 33.72961044311523 C 16.37334251403809 33.72651672363281 16.87360191345215 33.22373962402344 16.87359428405762 32.60461044311523 L 16.87359428405762 25.875 C 16.87359428405762 25.2536792755127 17.37727355957031 24.75 17.99859428405762 24.75 L 22.49859428405762 24.75 C 23.11991500854492 24.75 23.62359428405762 25.2536792755127 23.62359428405762 25.875 L 23.62359428405762 32.59968566894531 C 23.62265968322754 32.89866256713867 23.74077224731445 33.18571472167969 23.95185279846191 33.39745712280273 C 24.16293334960938 33.60919570922852 24.44961547851562 33.72820281982422 24.74859428405762 33.72820281982422 L 32.625 33.75 C 33.24631881713867 33.75 33.75 33.24631881713867 33.75 32.625 L 33.75 21.09375 L 20.78929710388184 10.42453098297119 C 20.47534942626953 10.17147254943848 20.0274658203125 10.17147254943848 19.71351623535156 10.42453098297119 Z M 40.19062423706055 17.68148422241211 L 34.3125 12.83625030517578 L 34.3125 3.097265720367432 C 34.3125 2.631275415420532 33.93474197387695 2.253515720367432 33.46875 2.253515720367432 L 29.53125 2.253515720367432 C 29.06525993347168 2.253515720367432 28.6875 2.631275653839111 28.6875 3.097265958786011 L 28.6875 8.202655792236328 L 22.39242172241211 3.0234375 C 21.14653778076172 1.998199701309204 19.34924697875977 1.998199701309204 18.10336112976074 3.0234375 L 0.3051562607288361 17.68148422241211 C -0.05417710542678833 17.97848320007324 -0.1045555472373962 18.51061058044434 0.1926565170288086 18.8697681427002 L 1.985625028610229 21.04945373535156 C 2.127959966659546 21.22252655029297 2.333295822143555 21.33187103271484 2.556345701217651 21.35337066650391 C 2.779395580291748 21.37487030029297 3.001836538314819 21.30676078796387 3.174609661102295 21.1640625 L 19.71351623535156 7.541718482971191 C 20.0274658203125 7.288661003112793 20.47534942626953 7.288661003112793 20.78929901123047 7.541719436645508 L 37.32890701293945 21.1640625 C 37.68806457519531 21.46127319335938 38.22019195556641 21.4108943939209 38.51718902587891 21.05156326293945 L 40.31015777587891 18.87187576293945 C 40.45273590087891 18.69840240478516 40.52028274536133 18.47525405883789 40.49784851074219 18.25183296203613 C 40.47541427612305 18.02840995788574 40.36484909057617 17.82314682006836 40.19063186645508 17.68148422241211 Z" fill="#00da82" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _svg_n7hepm =
+    '<svg viewBox="361.0 411.0 1.0 58.1" ><path transform="translate(-5178.0, 194.01)" d="M 5539 217 L 5539 275.0948181152344" fill="none" stroke="#00da82" stroke-width="10" stroke-miterlimit="4" stroke-linecap="round" /></svg>';
 const String _svg_s8mor4 =
     '<svg viewBox="0.0 0.0 32.9 32.9" ><path transform="translate(-3.0, -3.0)" d="M 11.22726726531982 3 L 27.68180084228516 3 C 32.2255973815918 3.000000953674316 35.90907287597656 6.683471202850342 35.90907287597656 11.22726345062256 L 35.90907287597656 27.68178558349609 C 35.90907287597656 32.22557830810547 32.2255973815918 35.90904998779297 27.68180084228516 35.90904998779297 L 11.22726726531982 35.90904998779297 C 6.683473587036133 35.90904998779297 3.000000953674316 32.22557830810547 3.000000953674316 27.68178558349609 L 3.000000238418579 11.22726154327393 C 3.000000953674316 6.683471202850342 6.683474540710449 3 11.22727108001709 3.000000953674316 Z" fill="none" stroke="#00da82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" /></svg>';
 const String _svg_fk4f33 =
     '<svg viewBox="9.9 9.8 13.2 13.2" ><path transform="translate(-2.12, -2.13)" d="M 25.1573543548584 17.55149459838867 C 25.57385063171387 20.36023712158203 24.14214897155762 23.11944961547852 21.60584449768066 24.39604187011719 C 19.06954574584961 25.67263221740723 16.00048065185547 25.17877578735352 13.99268531799316 23.17097854614258 C 11.98488712310791 21.16318130493164 11.49103355407715 18.09411811828613 12.76762390136719 15.55782127380371 C 14.04421234130859 13.02152252197266 16.80342674255371 11.58981800079346 19.61216926574707 12.00631999969482 C 22.48015975952148 12.43160438537598 24.7320671081543 14.68350791931152 25.1573543548584 17.55149459838867 Z" fill="none" stroke="#00da82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" /></svg>';
 const String _svg_mtlims =
     '<svg viewBox="25.5 7.4 1.0 1.0" ><path transform="translate(-0.75, -2.35)" d="M 26.25 9.75 L 26.25 9.75" fill="none" stroke="#00da82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" /></svg>';
-const String _svg_hfiw1k =
-    '<svg viewBox="65.5 35.1 36.0 35.7" ><path transform="translate(64.94, 34.57)" d="M 36.52076721191406 18.54162216186523 C 36.52076721191406 8.609606742858887 28.47365760803223 0.5624999403953552 18.54163551330566 0.5624999403953552 C 8.609611511230469 0.5624999403953552 0.5624999403953552 8.609606742858887 0.5624999403953552 18.54162216186523 C 0.5624999403953552 27.51523399353027 7.137208461761475 34.95337295532227 15.73239326477051 36.30325317382812 L 15.73239326477051 23.73889350891113 L 11.16511344909668 23.73889350891113 L 11.16511344909668 18.54162216186523 L 15.73239326477051 18.54162216186523 L 15.73239326477051 14.58041477203369 C 15.73239326477051 10.07476043701172 18.41476631164551 7.585956573486328 22.52314376831055 7.585956573486328 C 24.49069976806641 7.585956573486328 26.54814910888672 7.936839580535889 26.54814910888672 7.936839580535889 L 26.54814910888672 12.35912418365479 L 24.28045845031738 12.35912418365479 C 22.04756736755371 12.35912418365479 21.35087585449219 13.74525547027588 21.35087585449219 15.16691207885742 L 21.35087585449219 18.54162216186523 L 26.33718490600586 18.54162216186523 L 25.53972244262695 23.73889350891113 L 21.35087585449219 23.73889350891113 L 21.35087585449219 36.30325317382812 C 29.9460620880127 34.95337295532227 36.52076721191406 27.51523399353027 36.52076721191406 18.54162216186523 Z" fill="#00da82" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _svg_kv1h2g =
+    '<svg viewBox="426.5 35.1 36.0 35.7" ><path transform="translate(425.94, 34.57)" d="M 36.52076721191406 18.54162216186523 C 36.52076721191406 8.609606742858887 28.47365760803223 0.5624999403953552 18.54163551330566 0.5624999403953552 C 8.609611511230469 0.5624999403953552 0.5624999403953552 8.609606742858887 0.5624999403953552 18.54162216186523 C 0.5624999403953552 27.51523399353027 7.137208461761475 34.95337295532227 15.73239326477051 36.30325317382812 L 15.73239326477051 23.73889350891113 L 11.16511344909668 23.73889350891113 L 11.16511344909668 18.54162216186523 L 15.73239326477051 18.54162216186523 L 15.73239326477051 14.58041477203369 C 15.73239326477051 10.07476043701172 18.41476631164551 7.585956573486328 22.52314376831055 7.585956573486328 C 24.49069976806641 7.585956573486328 26.54814910888672 7.936839580535889 26.54814910888672 7.936839580535889 L 26.54814910888672 12.35912418365479 L 24.28045845031738 12.35912418365479 C 22.04756736755371 12.35912418365479 21.35087585449219 13.74525547027588 21.35087585449219 15.16691207885742 L 21.35087585449219 18.54162216186523 L 26.33718490600586 18.54162216186523 L 25.53972244262695 23.73889350891113 L 21.35087585449219 23.73889350891113 L 21.35087585449219 36.30325317382812 C 29.9460620880127 34.95337295532227 36.52076721191406 27.51523399353027 36.52076721191406 18.54162216186523 Z" fill="#00da82" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
 const String _svg_evoipl =
     '<svg viewBox="0.0 3.4 41.3 25.2" ><path transform="translate(-3.37, -7.43)" d="M 39.95286178588867 17.21926689147949 C 39.41611480712891 17.21926689147949 38.89925765991211 17.14968681335449 38.40227508544922 17.0304126739502 L 33.69088745117188 21.83125305175781 C 33.61137390136719 21.91077041625977 33.61137390136719 22.03004455566406 33.69088745117188 22.10956192016602 L 41.17543792724609 30.08114433288574 C 41.68235397338867 30.58806419372559 41.68235397338867 31.40311431884766 41.17543792724609 31.91003608703613 C 40.92694473266602 32.15852737426758 40.58899688720703 32.28774261474609 40.260986328125 32.28774261474609 C 39.93297576904297 32.28774261474609 39.59502792358398 32.15852737426758 39.34653854370117 31.91003608703613 L 31.89181327819824 23.96827125549316 C 31.81229591369629 23.88875770568848 31.68308258056641 23.88875770568848 31.60356330871582 23.96827125549316 L 29.78460884094238 25.81704139709473 C 28.26384353637695 27.35768508911133 26.2460994720459 28.21249389648438 24.07925796508789 28.22243499755859 C 21.88259696960449 28.23237228393555 19.79527282714844 27.30798721313477 18.25462913513184 25.74746322631836 L 16.5052547454834 23.9682674407959 C 16.42573928833008 23.88875198364258 16.2965202331543 23.88875198364258 16.21700668334961 23.9682674407959 L 8.76227855682373 31.91003227233887 C 8.513788223266602 32.15852355957031 8.175840377807617 32.28773880004883 7.847833156585693 32.28773880004883 C 7.519824981689453 32.28773880004883 7.181877613067627 32.15852355957031 6.933386325836182 31.91003227233887 C 6.426464080810547 31.40311241149902 6.426464080810547 30.58806037902832 6.933386325836182 30.08113861083984 L 14.41793060302734 22.10955619812012 C 14.48750877380371 22.03003883361816 14.48750877380371 21.91076469421387 14.41793060302734 21.83124923706055 L 3.712947845458984 10.93741893768311 C 3.583732128143311 10.80820465087891 3.375 10.89766120910645 3.375 11.07657432556152 L 3.375 32.87417984008789 C 3.375 34.62355422973633 4.806307792663574 36.05485916137695 6.555683612823486 36.05485916137695 L 41.54319763183594 36.05485916137695 C 43.29257202148438 36.05485916137695 44.72388458251953 34.62355422973633 44.72388458251953 32.87417984008789 L 44.72388458251953 15.181640625 C 43.52118682861328 16.43403625488281 41.83145141601562 17.21926689147949 39.95286178588867 17.21926689147949 Z" fill="#00da82" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
 const String _svg_qm1xgl =
     '<svg viewBox="1.2 0.0 31.4 18.2" ><path transform="translate(-3.02, -8.44)" d="M 32.9910888671875 11.61817932128906 C 32.9910888671875 10.46518230438232 33.28927993774414 9.381763458251953 33.8061408996582 8.437498092651367 L 6.193829536437988 8.437498092651367 C 5.448356628417969 8.437498092651367 4.762521743774414 8.695930480957031 4.225781440734863 9.133274078369141 L 19.82106971740723 25.00686264038086 C 20.85479354858398 26.06046295166016 22.23640060424805 26.63696479797363 23.70746612548828 26.63696479797363 C 25.17853164672852 26.63696479797363 26.56014442443848 26.06046676635742 27.59386253356934 25.00686264038086 L 35.59527206420898 16.86630439758301 C 34.00493240356445 15.6536693572998 32.9910888671875 13.75520133972168 32.9910888671875 11.61817932128906 Z" fill="#00da82" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
 const String _svg_s7dtgo =
     '<svg viewBox="31.8 0.0 9.5 9.5" ><path transform="translate(5.93, -7.31)" d="M 35.41704940795898 12.08352184295654 C 35.41704940795898 14.71848392486572 33.2809944152832 16.85454177856445 30.64603042602539 16.85454368591309 C 28.01106071472168 16.85454368591309 25.875 14.71848392486572 25.875 12.08352184295654 C 25.875 9.448558807373047 28.01106071472168 7.3125 30.64603042602539 7.3125 C 33.2809944152832 7.3125 35.41704940795898 9.448558807373047 35.41704940795898 12.08352184295654 Z" fill="#00da82" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
-const String _svg_xv2ibr =
-    '<svg viewBox="1559.0 411.0 1.0 58.1" ><path transform="translate(-3980.0, 194.01)" d="M 5539 217 L 5539 275.0948181152344" fill="none" stroke="#00da82" stroke-width="10" stroke-miterlimit="4" stroke-linecap="round" /></svg>';
-const String _svg_h8tz6v =
-    '<svg viewBox="1398.9 18.2 69.1 69.1" ><path transform="translate(1398.91, 17.63)" d="M 34.54613876342773 0.5624998807907104 C 15.46218299865723 0.5624998807907104 0 16.02468299865723 0 35.10863876342773 C 0 54.19258880615234 15.46218299865723 69.65477752685547 34.54613876342773 69.65477752685547 C 53.63009643554688 69.65477752685547 69.09227752685547 54.19258880615234 69.09227752685547 35.10863876342773 C 69.09227752685547 16.02468299865723 53.63009643554688 0.5624998807907104 34.54613876342773 0.5624998807907104 Z M 34.54613876342773 13.9351978302002 C 41.31606292724609 13.9351978302002 46.804443359375 19.42357635498047 46.804443359375 26.19350624084473 C 46.804443359375 32.96343231201172 41.31606292724609 38.45181274414062 34.54613876342773 38.45181274414062 C 27.77620887756348 38.45181274414062 22.28783226013184 32.96343231201172 22.28783226013184 26.19350624084473 C 22.28783226013184 19.42357635498047 27.77620887756348 13.9351978302002 34.54613876342773 13.9351978302002 Z M 34.54613876342773 61.85403823852539 C 26.36928939819336 61.85403823852539 19.04216575622559 58.14868545532227 14.13884258270264 52.35384750366211 C 16.75766181945801 47.42266464233398 21.88386535644531 44.02376556396484 27.85978698730469 44.02376556396484 C 28.19410514831543 44.02376556396484 28.52842330932617 44.07949447631836 28.84881210327148 44.17699432373047 C 30.65969848632812 44.76205444335938 32.55416488647461 45.13816070556641 34.54613876342773 45.13816070556641 C 36.53811264038086 45.13816070556641 38.44650650024414 44.76205444335938 40.24346923828125 44.17699432373047 C 40.5638542175293 44.07948303222656 40.89817047119141 44.02376556396484 41.23248672485352 44.02376556396484 C 47.20841598510742 44.02376556396484 52.33461380004883 47.42266845703125 54.95343017578125 52.35384750366211 C 50.05010986328125 58.14868545532227 42.72298431396484 61.85403823852539 34.54613876342773 61.85403823852539 Z" fill="#00da82" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _svg_etptud =
+    '<svg viewBox="423.9 18.2 69.1 69.1" ><path transform="translate(423.91, 17.63)" d="M 34.54613876342773 0.5624998807907104 C 15.46218299865723 0.5624998807907104 0 16.02468299865723 0 35.10863876342773 C 0 54.19258880615234 15.46218299865723 69.65477752685547 34.54613876342773 69.65477752685547 C 53.63009643554688 69.65477752685547 69.09227752685547 54.19258880615234 69.09227752685547 35.10863876342773 C 69.09227752685547 16.02468299865723 53.63009643554688 0.5624998807907104 34.54613876342773 0.5624998807907104 Z M 34.54613876342773 13.9351978302002 C 41.31606292724609 13.9351978302002 46.804443359375 19.42357635498047 46.804443359375 26.19350624084473 C 46.804443359375 32.96343231201172 41.31606292724609 38.45181274414062 34.54613876342773 38.45181274414062 C 27.77620887756348 38.45181274414062 22.28783226013184 32.96343231201172 22.28783226013184 26.19350624084473 C 22.28783226013184 19.42357635498047 27.77620887756348 13.9351978302002 34.54613876342773 13.9351978302002 Z M 34.54613876342773 61.85403823852539 C 26.36928939819336 61.85403823852539 19.04216575622559 58.14868545532227 14.13884258270264 52.35384750366211 C 16.75766181945801 47.42266464233398 21.88386535644531 44.02376556396484 27.85978698730469 44.02376556396484 C 28.19410514831543 44.02376556396484 28.52842330932617 44.07949447631836 28.84881210327148 44.17699432373047 C 30.65969848632812 44.76205444335938 32.55416488647461 45.13816070556641 34.54613876342773 45.13816070556641 C 36.53811264038086 45.13816070556641 38.44650650024414 44.76205444335938 40.24346923828125 44.17699432373047 C 40.5638542175293 44.07948303222656 40.89817047119141 44.02376556396484 41.23248672485352 44.02376556396484 C 47.20841598510742 44.02376556396484 52.33461380004883 47.42266845703125 54.95343017578125 52.35384750366211 C 50.05010986328125 58.14868545532227 42.72298431396484 61.85403823852539 34.54613876342773 61.85403823852539 Z" fill="#00da82" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _svg_ckrrae =
+    '<svg viewBox="24.1 996.2 63.9 48.7" ><path transform="matrix(-1.0, 0.0, 0.0, -1.0, 88.0, 1049.4)" d="M 63.06124114990234 31.0199146270752 L 41.74476623535156 52.33639144897461 C 39.84151077270508 54.23965454101562 36.54253005981445 52.90737152099609 36.54253005981445 50.17937088012695 L 36.54253005981445 37.9985237121582 L 19.28633689880371 37.9985237121582 C 17.59878349304199 37.9985237121582 16.24112510681152 36.64086532592773 16.24112510681152 34.95331192016602 L 16.24112510681152 22.77246856689453 C 16.24112510681152 21.08491325378418 17.59878349304199 19.72725868225098 19.28633689880371 19.72725868225098 L 36.54253005981445 19.72725868225098 L 36.54253005981445 7.546414375305176 C 36.54253005981445 4.831101894378662 39.82882690429688 3.486133337020874 41.74476623535156 5.389389991760254 L 63.06124114990234 26.70586585998535 C 64.24126434326172 27.89857482910156 64.24126434326172 29.82720565795898 63.06124114990234 31.0199146270752 Z M 24.36168670654297 51.70197677612305 L 24.36168670654297 46.62662124633789 C 24.36168670654297 45.78918838500977 23.67651748657227 45.10401153564453 22.83908271789551 45.10401153564453 L 12.18084335327148 45.10401153564453 C 9.935001373291016 45.10401153564453 8.120562553405762 43.28957748413086 8.120562553405762 41.04373550415039 L 8.120562553405762 16.68204689025879 C 8.120562553405762 14.43620300292969 9.935001373291016 12.62176704406738 12.18084335327148 12.62176704406738 L 22.83908271789551 12.62176704406738 C 23.67651748657227 12.62176704406738 24.36168670654297 11.93659400939941 24.36168670654297 11.09916114807129 L 24.36168670654297 6.02380895614624 C 24.36168670654297 5.186375141143799 23.67651748657227 4.501203536987305 22.83908271789551 4.501203536987305 L 12.18084335327148 4.501203536987305 C 5.456002712249756 4.501203536987305 0 9.957206726074219 0 16.68204689025879 L 0 41.04373550415039 C 0 47.76858139038086 5.456002712249756 53.22458648681641 12.18084335327148 53.22458648681641 L 22.83908271789551 53.22458648681641 C 23.67651748657227 53.22458648681641 24.36168670654297 52.53940582275391 24.36168670654297 51.70197677612305 Z" fill="#ffffff" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _svg_o1kid6 =
+    '<svg viewBox="51.0 411.0 32.9 58.2" ><path transform="translate(40.31, 404.53)" d="M 28.42070007324219 31.96741485595703 C 21.08183670043945 30.05998229980469 18.72172546386719 28.10396957397461 18.72172546386719 25.03265380859375 C 18.72172546386719 21.50867080688477 21.97088050842285 19.03543090820312 27.45079612731934 19.03543090820312 C 33.20554733276367 19.03543090820312 35.33932495117188 21.78349876403809 35.53330612182617 25.82470893859863 L 42.67819213867188 25.82470893859863 C 42.46807098388672 20.24780082702637 39.05721664428711 15.17198181152344 32.30028915405273 13.50701808929443 L 32.30028915405273 6.426767349243164 L 22.60131454467773 6.426767349243164 L 22.60131454467773 13.41002559661865 C 16.32934379577637 14.78402137756348 11.28587627410889 18.8253116607666 11.28587627410889 25.08114624023438 C 11.28587627410889 32.54935455322266 17.47707748413086 36.26731872558594 26.48090171813965 38.43336486816406 C 34.57954406738281 40.37316131591797 36.17987442016602 43.20200347900391 36.17987442016602 46.24104309082031 C 36.17987442016602 48.45565795898438 34.61190032958984 52.01192855834961 27.45079612731934 52.01192855834961 C 20.79086494445801 52.01192855834961 18.15592765808105 49.02138137817383 17.81646537780762 45.22265243530273 L 10.68771934509277 45.22265243530273 C 11.09181880950928 52.30289077758789 16.37775611877441 56.26332855224609 22.60131454467773 57.6049690246582 L 22.60131454467773 64.62059020996094 L 32.30028915405273 64.62059020996094 L 32.30028915405273 57.66969299316406 C 38.58847427368164 56.45732116699219 43.61573028564453 52.82020568847656 43.61573028564453 46.17641448974609 C 43.61573028564453 37.02701950073242 35.75955963134766 33.89107894897461 28.42070007324219 31.96742630004883 Z" fill="#00da82" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _svg_n3wm7z =
+    '<svg viewBox="47.0 520.2 41.5 24.9" ><path transform="translate(47.0, 515.71)" d="M 22.84406661987305 19.03713607788086 L 21.80570030212402 19.03713607788086 L 21.80570030212402 13.32611846923828 C 21.80570030212402 13.03926849365234 21.57336807250977 12.80693435668945 21.28651809692383 12.80693435668945 L 20.40520477294922 12.80693435668945 C 20.09758949279785 12.80693435668945 19.79711151123047 12.89779090881348 19.54141235351562 13.06847190856934 L 18.54652786254883 13.73172950744629 C 18.30789184570312 13.89061546325684 18.24336624145508 14.21294212341309 18.40245246887207 14.45144653320312 L 18.9787483215332 15.31523895263672 C 19.13763427734375 15.55387878417969 19.4599609375 15.61840057373047 19.69846725463867 15.45931243896484 L 19.72896766662598 15.4391918182373 L 19.72896766662598 19.03713607788086 L 18.69060134887695 19.03713607788086 C 18.40375328063965 19.03713607788086 18.17141723632812 19.26947021484375 18.17141723632812 19.55631828308105 L 18.17141723632812 20.59468460083008 C 18.17141723632812 20.88153457641602 18.40375328063965 21.11386680603027 18.69060134887695 21.11386680603027 L 22.84406661987305 21.11386680603027 C 23.13091850280762 21.11386680603027 23.36325073242188 20.88153457641602 23.36325073242188 20.59468460083008 L 23.36325073242188 19.55631828308105 C 23.36325073242188 19.26947021484375 23.13091850280762 19.03713607788086 22.84406661987305 19.03713607788086 Z M 39.45793533325195 4.5 L 2.076733350753784 4.5 C 0.9299871921539307 4.5 0 5.42998743057251 0 6.576733589172363 L 0 27.34406852722168 C 0 28.49081420898438 0.9299871921539307 29.42080307006836 2.076733350753784 29.42080307006836 L 39.45793533325195 29.42080307006836 C 40.60468292236328 29.42080307006836 41.53466796875 28.49081420898438 41.53466796875 27.34406852722168 L 41.53466796875 6.576733589172363 C 41.53466796875 5.42998743057251 40.60468292236328 4.5 39.45793533325195 4.5 Z M 3.115100383758545 26.30570220947266 L 3.115100383758545 22.15223503112793 C 5.409242153167725 22.15223503112793 7.268566608428955 24.01156234741211 7.268566608428955 26.30570220947266 L 3.115100383758545 26.30570220947266 Z M 3.115100383758545 11.76856803894043 L 3.115100383758545 7.615100860595703 L 7.268566608428955 7.615100860595703 C 7.268566608428955 9.909242630004883 5.409242153167725 11.76856803894043 3.115100383758545 11.76856803894043 Z M 20.767333984375 24.22896957397461 C 17.32644844055176 24.22896957397461 14.53713321685791 20.97433662414551 14.53713321685791 16.96040153503418 C 14.53713321685791 12.94581604003906 17.32644844055176 9.69183349609375 20.767333984375 9.69183349609375 C 24.20822334289551 9.69183349609375 26.99753379821777 12.94581604003906 26.99753379821777 16.96040153503418 C 26.99753379821777 20.97563743591309 24.20692253112793 24.22896957397461 20.767333984375 24.22896957397461 Z M 38.4195671081543 26.30570220947266 L 34.2661018371582 26.30570220947266 C 34.2661018371582 24.01156234741211 36.12542724609375 22.15223503112793 38.4195671081543 22.15223503112793 L 38.4195671081543 26.30570220947266 Z M 38.4195671081543 11.76856803894043 C 36.12542724609375 11.76856803894043 34.2661018371582 9.909242630004883 34.2661018371582 7.615100860595703 L 38.4195671081543 7.615100860595703 L 38.4195671081543 11.76856803894043 Z" fill="#00da82" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _svg_cjtun2 =
+    '<svg viewBox="47.0 319.1 40.8 40.8" ><path transform="translate(47.0, 318.53)" d="M 20.40600967407227 0.5624998807907104 C 9.133334159851074 0.5624998807907104 0 9.695833206176758 0 20.96850967407227 C 0 32.24117660522461 9.133334159851074 41.37451553344727 20.40600967407227 41.37451553344727 C 31.67868423461914 41.37451553344727 40.81201934814453 32.24117660522461 40.81201934814453 20.96850967407227 C 40.81201934814453 9.695833206176758 31.67868423461914 0.5624998807907104 20.40600967407227 0.5624998807907104 Z M 20.40600967407227 8.461599349975586 C 24.4049243927002 8.461599349975586 27.64684867858887 11.70352172851562 27.64684867858887 15.70244216918945 C 27.64684867858887 19.70136070251465 24.4049243927002 22.94328308105469 20.40600967407227 22.94328308105469 C 16.40708923339844 22.94328308105469 13.16516780853271 19.70136070251465 13.16516780853271 15.70244216918945 C 13.16516780853271 11.70352172851562 16.40708923339844 8.461599349975586 20.40600967407227 8.461599349975586 Z M 20.40600967407227 36.76670455932617 C 15.57603740692139 36.76670455932617 11.24798965454102 34.57799530029297 8.351652145385742 31.15505409240723 C 9.898558616638184 28.24226379394531 12.92654895782471 26.23457145690918 16.45645713806152 26.23457145690918 C 16.65393447875977 26.23457145690918 16.85141372680664 26.26748847961426 17.04066276550293 26.32508277893066 C 18.11033248901367 26.6706714630127 19.22937202453613 26.8928337097168 20.40600967407227 26.8928337097168 C 21.58264541625977 26.8928337097168 22.70991134643555 26.6706714630127 23.7713565826416 26.32508277893066 C 23.96060562133789 26.26748275756836 24.1580810546875 26.23457145690918 24.35555839538574 26.23457145690918 C 27.88547134399414 26.23457145690918 30.9134578704834 28.24226379394531 32.46036148071289 31.15505409240723 C 29.56402778625488 34.57799530029297 25.23597717285156 36.76670455932617 20.40600967407227 36.76670455932617 Z" fill="#00da82" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _svg_kf596 =
+    '<svg viewBox="47.0 230.5 40.5 31.5" ><path transform="translate(47.0, 228.24)" d="M 19.71351623535156 10.42453098297119 L 6.75 21.10148429870605 L 6.75 32.625 C 6.75 33.24631881713867 7.253679752349854 33.75 7.875 33.75 L 15.75421905517578 33.72961044311523 C 16.37334251403809 33.72651672363281 16.87360191345215 33.22373962402344 16.87359428405762 32.60461044311523 L 16.87359428405762 25.875 C 16.87359428405762 25.2536792755127 17.37727355957031 24.75 17.99859428405762 24.75 L 22.49859428405762 24.75 C 23.11991500854492 24.75 23.62359428405762 25.2536792755127 23.62359428405762 25.875 L 23.62359428405762 32.59968566894531 C 23.62265968322754 32.89866256713867 23.74077224731445 33.18571472167969 23.95185279846191 33.39745712280273 C 24.16293334960938 33.60919570922852 24.44961547851562 33.72820281982422 24.74859428405762 33.72820281982422 L 32.625 33.75 C 33.24631881713867 33.75 33.75 33.24631881713867 33.75 32.625 L 33.75 21.09375 L 20.78929710388184 10.42453098297119 C 20.47534942626953 10.17147254943848 20.0274658203125 10.17147254943848 19.71351623535156 10.42453098297119 Z M 40.19062423706055 17.68148422241211 L 34.3125 12.83625030517578 L 34.3125 3.097265720367432 C 34.3125 2.631275415420532 33.93474197387695 2.253515720367432 33.46875 2.253515720367432 L 29.53125 2.253515720367432 C 29.06525993347168 2.253515720367432 28.6875 2.631275653839111 28.6875 3.097265958786011 L 28.6875 8.202655792236328 L 22.39242172241211 3.0234375 C 21.14653778076172 1.998199701309204 19.34924697875977 1.998199701309204 18.10336112976074 3.0234375 L 0.3051562607288361 17.68148422241211 C -0.05417710542678833 17.97848320007324 -0.1045555472373962 18.51061058044434 0.1926565170288086 18.8697681427002 L 1.985625028610229 21.04945373535156 C 2.127959966659546 21.22252655029297 2.333295822143555 21.33187103271484 2.556345701217651 21.35337066650391 C 2.779395580291748 21.37487030029297 3.001836538314819 21.30676078796387 3.174609661102295 21.1640625 L 19.71351623535156 7.541718482971191 C 20.0274658203125 7.288661003112793 20.47534942626953 7.288661003112793 20.78929901123047 7.541719436645508 L 37.32890701293945 21.1640625 C 37.68806457519531 21.46127319335938 38.22019195556641 21.4108943939209 38.51718902587891 21.05156326293945 L 40.31015777587891 18.87187576293945 C 40.45273590087891 18.69840240478516 40.52028274536133 18.47525405883789 40.49784851074219 18.25183296203613 C 40.47541427612305 18.02840995788574 40.36484909057617 17.82314682006836 40.19063186645508 17.68148422241211 Z" fill="#00da82" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
